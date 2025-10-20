@@ -1,0 +1,18 @@
+{
+  "task": "state_prep",
+  "target_state": "|+x>",
+  "constraints": {
+    "budget_time_us": 10.0
+  },
+  "cost_weights": {
+    "backaction": 0.5,
+    "time": 0.2
+  },
+  "experiment": {
+    "n_runs": 100,
+    "n_steps": 32,
+    "T1": 50e-6,
+    "T2": 50e-6,
+    "target_delta_F": 0.02
+  }
+}
